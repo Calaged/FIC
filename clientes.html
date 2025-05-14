@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<HTML lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FERRETERÍA INDUSTRIAL COSTERA</title>
+    <link rel="stylesheet" type="text/css" href="css/clientes.css">
+    <script src="https://kit.fontawesome.com/151fc85ca3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <img src="imagenes/img1.png" width="800" height="190"><br>
+        <header>
+            <h1>Todas las herramientas para el comercio ferretero</h1>
+       </header>
+        <h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="clientes.html" style="color:#008000";><strong>Clientes</strong></a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="galeria_de_fotos.html">Fotos</a></li>
+                </ul>
+            </nav>
+        </h2>
+        <hr>
+        <h1 style="color: darkslateblue;">CLIENTES</h1>
+        <form action="" onsubmit="return validarFormulario()">
+            <section>
+                <article>
+                    <div align="center">
+                        <table style="border:1px solid rgb(36, 112, 88)" ; width: 90%; height: 500px auto;>
+                            <tr>
+                                <td>Razón Social:</td>
+                                <td>
+                                    <input id="razon" type="text" name="razon" size="40" maxlength="20" 
+                                        placeholder="Razón Social">
+                                </td>                          
+                            </tr>
+                            <tr>
+                                <td>Fecha de Ingreso:</td>
+                                <td>
+                                    <input id="fecha" type="date" name="fecha" size="10" maxlength="10" 
+                                        placeholder="dd/mm/aaaa">
+                                </td>                          
+                            </tr>
+                            <tr>
+                                <td>Domicilio:</td>
+                                <td>
+                                    <input id="domicilio" type="text" name="domicilio" size="40" maxlength="30" 
+                                        placeholder="Domicilio">
+                                </td>                          
+                            </tr>
+                            <tr>
+                                <td>Estado/Provincia:</td>
+                                <td>
+                                    <input id="estado" type="text" name="estado" size="40" maxlength="30" 
+                                        placeholder="Estado/Provincia">
+                                </td>                          
+                            </tr>
+                            <tr>
+                                <td>Código Postal:</td>
+                                <td>
+                                    <input id="cp" type="text" name="cp" size="10" maxlength="10" 
+                                        placeholder="Código Postal">
+                                </td>                          
+                            </tr>
+                            <tr>
+                                <td>Correo Electrónico:</td>
+                                <td>
+                                    <input id="email" type="text" name="email" placeholder="Ingresar email"  
+                                        size="30" maxlength="40">
+                                </td>                          
+                            </tr>
+                            <tr>
+                                <td>Responsable/Gerente:</td>
+                                <td>
+                                    <input id="responsable" type="text" name="responsable" size="40" 
+                                        maxlength="30" placeholder="Responsable/Gerente">
+                                </td>                          
+                            </tr>
+                            <tr>
+                                <td>Nº de Registro Comercial:</td>
+                                <td>
+                                    <input id="registro" type="text" name="registro" placeholder="Registro Comercial"  
+                                        size="40" maxlength="30">
+                                </td>                          
+                            </tr>
+                            <tr>
+                                <td>Observaciones:</td>
+                                <td>
+                                    <textarea id="observaciones" name="observaciones" rows="1" cols="22" 
+                                        placeholder="Observaciones"></textarea>
+                                </td>                          
+                            </tr>
+                            <tr>
+                                <td>Pulse aquí para enviar:</td>
+                                <td>
+                                    <input type="submit" id="enviar" value="Enviar">
+                                    <input type="reset" value="Borrar datos">
+                                </td>                          
+                            </tr> 
+                        </table>
+                    </div>
+                </article>
+            </section>
+        </form>
+    </div>
+    <script src="js/validar1.js"></script>
+</body>
+<footer>
+    <hr>
+    <div class="contenedor">
+        <h3><strong> &#169 Comercial Latinoamericana - APRENDER21 / 2024 - 2025 -- Nuestras Redes: &nbsp&nbsp
+                <span>
+                    <a class="fa fa-facebook">&nbsp&nbsp</a>
+                    <a class="fa fa-twitter">&nbsp&nbsp</a>
+                    <a class="fa fa-instagram">&nbsp&nbsp</a>
+                    <a class="fa fa-whatsapp">&nbsp&nbsp</a>
+                    <a class="fa fa-youtube-play">&nbsp&nbsp</a>
+                </span>
+            </strong></h3>
+    </div>
+</footer>
+</html>   
